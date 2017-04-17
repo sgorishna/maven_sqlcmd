@@ -1,5 +1,6 @@
 package com.juja.sqlcmd.controller;
 
+import com.juja.sqlcmd.model.DbManagerImpl;
 import com.juja.sqlcmd.view.ConsoleImpl;
 
 /**
@@ -7,9 +8,13 @@ import com.juja.sqlcmd.view.ConsoleImpl;
  */
 public class Main {
 
+    private  Main(){
+
+    }
+
     public static void main(String[] args) {
 
-        Executor executor =  new Executor(new ConsoleImpl());
+        Executor executor =  new Executor(new ConsoleImpl(), new DbManagerImpl());
 
         executor.run();
 

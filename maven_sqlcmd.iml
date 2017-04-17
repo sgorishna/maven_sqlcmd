@@ -14,4 +14,8 @@
     <orderEntry type="library" scope="PROVIDED" name="Maven: org.projectlombok:lombok:1.16.14" level="project" />
     <orderEntry type="library" name="Maven: postgresql:postgresql:9.1-901.jdbc4" level="project" />
   </component>
+  <component name="sonarModuleSettings">
+    <option name="localAnalysisScripName" value="&lt;PROJECT&gt;" />
+    <option name="serverName" value="&lt;PROJECT&gt;" />
+  </component>
 </module>

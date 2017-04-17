@@ -7,6 +7,8 @@ public interface Console {
 
     public String read();
 
-    public void print( String line);
+    public void println(String line);
+
+    public void print(String line);
 
 }
